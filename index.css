@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(62, 109, 240);
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: flex;
+}
+
+.mainorigin {
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  border: 5px solid lightskyblue;
+  margin-left: 25rem;
+  padding: 15px;
+  border-radius: 5%;
+}

@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(112, 6, 14);
+}
+
+th,
+td {
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+}
+
+td {
+  color: whitesmoke;
+}
+
+th {
+  border: 2px solid rgb(2, 92, 145);
+  color: whitesmoke;
+}
+
+table {
+  padding: 2em;
+  display: block;
+  border: 2px solid orangered;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  border: 3px solid yellow;
+}
+
+header {
+  border: 2px solid greenyellow;
+}
