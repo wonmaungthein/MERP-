@@ -5,6 +5,7 @@ import Table from "./Components/Table";
 import ReadingLevel from "./Components/ReadingLevel";
 import "./Components/index.css";
 import Todolist from "./Components/Todolist";
+import InputForm from "./Components/InputForm";
 
 // const destination = document.querySelector("#container");
 
@@ -19,6 +20,14 @@ import Todolist from "./Components/Todolist";
 // );
 
 class App extends Component {
+  state = {
+    name: "",
+    rawScore: ""
+  };
+
+  handleNameInput = e => {
+    this.setState({});
+  };
   render() {
     return (
       <div className="App">
@@ -33,6 +42,7 @@ class App extends Component {
           {/* <Table /> */}
           {/* <Todolist /> */}
           <ReadingLevel />
+          <InputForm />
         </p>
       </div>
     );
