@@ -42,7 +42,7 @@ class App extends Component {
           {/* <Table /> */}
           {/* <Todolist /> */}
           <ReadingLevel />
-          <InputForm />
+          {/* <InputForm /> */}
         </p>
       </div>
     );

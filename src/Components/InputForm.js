@@ -7,7 +7,7 @@ class InputForm extends Component {
   };
 
   handleSubmit = e => {
-    console.log("Submit bottom is being clicked");
+    console.log( `Submit bottom is being clicked`);
   };
   render() {
     return (
